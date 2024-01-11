@@ -1,0 +1,50 @@
+html {
+    font-size: 16px;
+    scroll-behavior: smooth;
+    -webkit-text-size-adjust: 100%;
+  }
+  body{
+      background-color: #E5A3BE;
+      background-repeat: no-repeat;
+      background-attachment: fixed;
+      background-size: cover;
+      color:#380b47;
+      margin: 0;
+  }
+  h2{
+      color:#380b47;
+      font-size: 25px;
+      font-family: Yeseva One, Cambria, Georgia, Times, 'Times New Roman', serif;
+  }
+/* style of nav */
+.topnav a {
+    float: right;
+    color: #2d4f61;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  }
+  .topnav-logo {
+    margin: left;
+    height: 7px;
+  }
+  
+  /* hover color */
+  .topnav a:hover {
+    background-color: #C2DCEA;
+    color:  #380b47;
+  }
+  
+  /* active page color */
+  .topnav a.active {
+    background-color: #9F74AD;
+    color: white;
+  }
+  footer {
+    text-align: left;
+    padding: 3px;
+    background-color: #380b47;
+    color: white;
+  }

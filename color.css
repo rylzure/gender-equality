@@ -1,0 +1,100 @@
+html {
+    font-size: 16px;
+    scroll-behavior: smooth;
+    -webkit-text-size-adjust: 100%;
+  }
+  body{
+      background-color: #FDF4F5;
+      background-repeat: no-repeat;
+      background-attachment: fixed;
+      background-size: cover;
+      color:#380b47;
+      margin:0;
+  }
+  h2{
+      color:#380b47;
+      font-size: 25px;
+      font-family: Yeseva One, Cambria, Georgia, Times, 'Times New Roman', serif;
+      margin-bottom: 0px;
+  }
+  .topnav {
+      background-color:  #FDF4F5;
+      overflow: hidden;
+    }
+    /* style of nav */
+    .topnav a {
+      float: right;
+      color: #2d4f61;
+      text-align: center;
+      padding: 14px 16px;
+      text-decoration: none;
+      font-size: 17px;
+      font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    }
+    .topnav-logo {
+      margin: left;
+      height: 7px;
+    }
+    
+    /* hover color */
+    .topnav a:hover {
+      background-color: #C2DCEA;
+      color:  #380b47;
+    }
+    
+    /* active page color */
+    .topnav a.active {
+      background-color: #9F74AD;
+      color: white;
+    }
+    /*holds the image and text*/
+    .container {
+      position: relative;
+      text-align: center;
+      color: white;
+    }
+    /*text in the image*/
+    .centered {
+      position: absolute;
+      top:50%;
+      left: 50%;
+      transform: translate(-50%, -50%);
+      color:#FDF4F5;
+      font-size: 140px;
+      font-family: Yeseva One, Cambria, Georgia, Times, 'Times New Roman', serif;
+    }
+    .form-container {
+        background-color: #9F74AD;
+        border: none;
+        border-radius: 4px;
+        color: #FDF4F5;
+        padding: 15px 32px;
+        text-align: center;
+        text-decoration: none;
+        display: inline-block;
+        font-size: 16px;
+        cursor:pointer; 
+        margin-left: 30px;   
+    }
+    .issue-container{
+      margin: 0px auto;
+      margin-left: 0;
+      margin-right: 0;
+      width: 100%;
+      overflow: auto;
+      padding-top: 50px;
+      padding-bottom: 50px;
+      background-color: #C2DCEA;
+      position: relative;
+      text-align: right;
+    }
+    footer {
+      text-align: left;
+      padding: 3px;
+      background-color: #380b47;
+      color: white;
+      margin-bottom: none;
+    }
+  .grid-container {
+    display: grid;
+  }

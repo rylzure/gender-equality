@@ -1,0 +1,87 @@
+html {
+    font-size: 16px;
+    scroll-behavior: smooth;
+    -webkit-text-size-adjust: 100%;
+  }
+  body{
+      background-color: #FDF4F5;
+      background-repeat: no-repeat;
+      background-attachment: fixed;
+      background-size: cover;
+      color:#380b47;
+      margin: 0;
+  }
+  h2{
+      color:#380b47;
+      font-size: 25px;
+      font-family: Yeseva One, Cambria, Georgia, Times, 'Times New Roman', serif;
+  }
+/* style of nav */
+.topnav a {
+    float: right;
+    color: #2d4f61;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  }
+  .topnav-logo {
+    margin: left;
+    height: 7px;
+  }
+  
+  /* hover color */
+  .topnav a:hover {
+    background-color: #C2DCEA;
+    color:  #380b47;
+  }
+  
+  /* active page color */
+  .topnav a.active {
+    background-color: #9F74AD;
+    color: white;
+  }
+  .second {
+    margin-top: 45px;
+  }
+  /*text input area*/
+input[type=text], select, textarea {
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    width: 90%;
+    padding: 12px; /*padding*/
+    border: 1px solid #380b47; /*textbox border*/
+    border-radius: 4px; /*rounded border*/
+    box-sizing: border-box; /*padding and width stays in place*/
+    margin-top: 6px; 
+    margin-bottom: 16px; 
+    margin-left: 50px;
+    margin-right: 30px;
+    resize: both /*user can vertically resize the text*/
+}
+/*button color*/
+input[type=submit] {
+    margin-left: 50px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    background-color:#9F74AD;
+    color:#FDF4F5;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor:pointer;
+}
+input[type=submit]:hover {
+    background-color:#E5A3BE;
+}
+/*padding*/
+.container {
+    border-radius: 5px;
+    background-color: #FDF4F5;
+    padding: 20px;
+}
+  footer {
+    text-align: left;
+    padding: 3px;
+    background-color: #380b47;
+    color: white;
+  }
